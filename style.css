@@ -1,1 +1,23 @@
-header {background-color: gray;}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+header{
+    display: flex;
+    background-color: #111111;
+    padding: 0 212px;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: #ffffff;
+    }
+}
+
+/* ul{
+    display: flex;
+} */
